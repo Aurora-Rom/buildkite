@@ -26,7 +26,7 @@ rm -rf out
 
 echo "--- breakfast"
 set +e
-breakfast aurora_${DEVICE}-${TYPE}
+breakfast aurora_${DEVICE}-userdebug
 set -e
 
 if [[ "$TARGET_PRODUCT" != aurora_* ]]; then
